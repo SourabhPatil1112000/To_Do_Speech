@@ -1,64 +1,11 @@
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing 
-purposes. 
-
-### Prerequisites
-
-The project can be built with npm or yarn, so choose one of the approach bellow in case you don't 
-have any installed on your system. 
-
-* npm is distributed with Node.js which means that when you download Node.js, 
-you automatically get npm installed on your computer. [Download Node.js](https://nodejs.org/en/download/)
-
-or
-
-* Yarn is a package manager built by Facebook Team and seems to be faster than npm in general.  [Download Yarn](https://yarnpkg.com/en/docs/install)
-
-### Installing
-
-To download the project follow the instructions bellow
-
-```
-git clone https://github.com/computationalcore/react-to-do-list
-cd myreads
-```
-
-Install dependencies and run with:
- 
-npm
-```
-npm install
-npm start
-```
-or
-
-yarn
-```
-yarn install
-yarn start
-```
-
-## Versions
-
-v1.0 
-* Default project implementation 
- 
-v1.1 
-* Change to material UI based interface
-* Task transitions animations
-* Remove tasks capabilities
-
-## Authors
-Vin Busquet
-* [https://github.com/computationalcore](https://github.com/computationalcore)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+Steps to Follow:
+1] Download Node.js : (https://nodejs.org/en/download/)
+2] Download npm.
+3] Set Environment Variables as Node js and npm source file path.
+4] run the following npm commands to start server
+    npm install
+    npm start
+5] Now you can try our To Do app in traditional way by typing text or by clicking audio button and speak the task you want to do....!!!
+6] To implement Speech Recognition in To Do App we promoted some changes which I have attached in Word File.
 
 
-## Acknowledgments
-* [Udacity](https://www.udacity.com/)
-* [Matheus Marsiglio](https://github.com/mtmr0x)
-* [Thales Moreira Carvalho](https://github.com/thalescomp)
